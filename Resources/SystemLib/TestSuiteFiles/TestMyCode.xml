@@ -1,0 +1,12 @@
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium framework">
+<test name="Functional tests">
+    <classes>
+        <class name="learnPOJO.testcls">
+            <methods>
+                <include name="testMethod"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

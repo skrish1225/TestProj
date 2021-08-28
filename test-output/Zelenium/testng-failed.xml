@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Zelenium]" parallel="tests">
+  <parameter name="Browser" value="Firefox"/>
+  <test thread-count="2" name="chrometest(failed)" parallel="tests">
+    <classes>
+      <class name="zelenium.FirstZeleniumTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- zelenium.FirstZeleniumTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="2" name="firefoxTest(failed)" parallel="tests">
+    <classes>
+      <class name="zelenium.FirstZeleniumTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- zelenium.FirstZeleniumTest -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Zelenium] -->

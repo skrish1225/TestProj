@@ -1,0 +1,50 @@
+2018-04-16 00:41:20,897 [main] INFO initiator - 0-41-20
+2018-04-16 00:41:22,959 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-04-16 00:41:23,349 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-04-16 00:41:23,487 [main] INFO DemoSmokeTest - This test case is a non UI test case
+2018-04-16 00:41:23,502 [main] INFO DemoSmokeTest - [Test]
+2018-04-16 00:41:23,510 [main] INFO DemoSmokeTest - [Test2, Deloitte Examples Chart of Accounts, TEST2, 09/01/2013, 02/28/2019, Quarter]
+2018-04-16 00:41:23,519 [main] INFO DemoSmokeTest - Assert True - Step Passed, Page Description -> Step Description
+2018-04-16 00:41:23,522 [main] INFO DemoSmokeTest - Assert False - Step Failed, Entity Page -> Check if entity wizard is displayed
+2018-04-16 00:41:23,524 [main] INFO DemoSmokeTest - Assert True - Step Passed, Entity Page 3 -> Check if you are able to add an entity
+2018-04-16 00:41:23,532 [main] INFO DemoSmokeTest - ************End Test Case - Demo_TC01 ************
+2018-04-16 00:41:23,533 [main] INFO DemoSmokeTest - Browser is already closed.
+2018-04-16 00:41:23,536 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-04-16 00:41:23,646 [main] INFO DemoSmokeTest - This test case is a non UI test case
+2018-04-16 00:41:23,651 [main] INFO DemoSmokeTest - [Test2]
+2018-04-16 00:41:23,657 [main] INFO DemoSmokeTest - [Test2, Deloitte Examples Chart of Accounts, TEST2, 09/01/2013, 02/28/2019, Quarter]
+2018-04-16 00:41:23,658 [main] INFO DemoSmokeTest - Assert True - Step Passed, Page Description -> Step Description
+2018-04-16 00:41:23,668 [main] INFO DemoSmokeTest - Assert False - Step Failed, Entity Page -> Check if entity wizard is displayed
+2018-04-16 00:41:23,675 [main] INFO DemoSmokeTest - Assert True - Step Passed, Entity Page 3 -> Check if you are able to add an entity
+2018-04-16 00:41:23,678 [main] INFO DemoSmokeTest - ************End Test Case - Demo_TC01 ************
+2018-04-16 00:41:23,680 [main] INFO DemoSmokeTest - Browser is already closed.
+2018-04-16 00:41:23,683 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-04-16 00:41:24,013 [main] INFO DemoSmokeTest - This test case is a non UI test case
+2018-04-16 00:41:24,017 [main] INFO DemoSmokeTest - [Test3]
+2018-04-16 00:41:24,021 [main] INFO DemoSmokeTest - [Test2, Deloitte Examples Chart of Accounts, TEST2, 09/01/2013, 02/28/2019, Quarter]
+2018-04-16 00:41:24,022 [main] INFO DemoSmokeTest - Assert True - Step Passed, Page Description -> Step Description
+2018-04-16 00:41:24,023 [main] INFO DemoSmokeTest - Assert False - Step Failed, Entity Page -> Check if entity wizard is displayed
+2018-04-16 00:41:24,023 [main] INFO DemoSmokeTest - Assert True - Step Passed, Entity Page 3 -> Check if you are able to add an entity
+2018-04-16 00:41:24,024 [main] INFO DemoSmokeTest - ************End Test Case - Demo_TC01 ************
+2018-04-16 00:41:24,024 [main] INFO DemoSmokeTest - Browser is already closed.
+2018-04-16 00:41:24,026 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC03 ************
+2018-04-16 00:41:30,210 [main] INFO DemoSmokeTest - Before navigating to: 'https://www.google.co.in/'
+2018-04-16 00:41:34,569 [main] INFO DemoSmokeTest - Navigated to:'https://www.google.co.in/'
+2018-04-16 00:41:34,586 [main] INFO DemoSmokeTest - Trying to find Element By : By.xpath: //input[contains(@value,'Google Search')]
+2018-04-16 00:41:34,639 [main] INFO DemoSmokeTest - Found Element By : By.xpath: //input[contains(@value,'Google Search')]
+2018-04-16 00:41:34,685 [main] INFO DemoSmokeTest - Assert True - Step Passed, Google Page -> Check if title is displayed as Google
+2018-04-16 00:41:34,686 [main] INFO DemoSmokeTest - Assert True - Step Passed, Google Page -> Check if Google search Box is displayed.
+2018-04-16 00:41:34,686 [main] INFO DemoSmokeTest - Trying to find Element By : By.id: lst-ib
+2018-04-16 00:41:34,718 [main] INFO DemoSmokeTest - Found Element By : By.id: lst-ib
+2018-04-16 00:41:34,949 [main] INFO DemoSmokeTest - ************End Test Case - Demo_TC03 ************
+2018-04-16 00:41:36,913 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ End Test Suite DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-16 15:37:55,408 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-16 15:37:55,815 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-05-16 16:42:34,854 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-16 16:42:35,179 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-05-16 16:49:22,261 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-16 16:49:22,497 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************
+2018-05-21 15:31:51,317 [main] INFO com - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - com ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-21 15:31:51,676 [main] INFO com - ************Start Test Case - Demo_TC01 ************
+2018-05-21 15:32:27,350 [main] INFO DemoSmokeTest - XXXXXXXXXXXXXXXXXXXXXXX ~ Start Test Suite - DemoSmokeTest ~ XXXXXXXXXXXXXXXXXXXXXXX
+2018-05-21 15:32:27,588 [main] INFO DemoSmokeTest - ************Start Test Case - Demo_TC01 ************

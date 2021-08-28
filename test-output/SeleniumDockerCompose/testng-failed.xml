@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [SeleniumDockerCompose]" parallel="tests">
+  <test thread-count="2" name="chrometest(failed)" parallel="tests">
+    <parameter name="Browser" value="gridChrome"/>
+    <classes>
+      <class name="grid.TstClass">
+        <methods>
+          <include name="actualTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid.TstClass -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="2" name="firefoxTest(failed)" parallel="tests">
+    <parameter name="Browser" value="gridFirefox"/>
+    <classes>
+      <class name="grid.TstClass">
+        <methods>
+          <include name="actualTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid.TstClass -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [SeleniumDockerCompose] -->

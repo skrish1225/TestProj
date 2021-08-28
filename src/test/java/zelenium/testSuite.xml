@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zelenium" parallel="tests" thread-count="2">
+	<parameter name="Browser" value="Chrome"></parameter>
+    <test thread-count = "5" name="chrometest">
+        <classes>
+            <class name="zelenium.FirstZeleniumTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>            
+        </classes>
+    </test>
+    
+    <parameter name="Browser" value="Firefox"></parameter>
+    <test thread-count = "5" name="firefoxTest">
+        <classes>
+            <class name="zelenium.FirstZeleniumTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>            
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumDockerCompose" parallel="tests" thread-count="2">
+	<test name="chrometest">
+    <parameter name="Browser" value="gridChrome" />
+        <classes>
+            <class name="grid.TstClass">
+                <methods>
+                    <include name="actualTest"/>
+                </methods>
+            </class>            
+        </classes>
+    </test>
+    
+    
+    <test name="firefoxTest">
+    <parameter name="Browser" value="gridFirefox" />
+        <classes>
+            <class name="grid.TstClass">
+                <methods>
+                    <include name="actualTest"/>
+                </methods>
+            </class>            
+        </classes>
+    </test>
+</suite>

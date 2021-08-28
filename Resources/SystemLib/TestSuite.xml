@@ -1,0 +1,1 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="Selenium framework"><test name="Functional tests"><classes><class name="DemoSmokeTest.DemoSmokeTest"><methods><include name="Demo_TC01"/><include name="Demo_TC03"/></methods></class></classes></test></suite>
