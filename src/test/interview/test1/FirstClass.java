@@ -1,17 +1,12 @@
 package test1;
 
-import static io.restassured.RestAssured.given;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-
+		
 public class FirstClass {
 	
 	
