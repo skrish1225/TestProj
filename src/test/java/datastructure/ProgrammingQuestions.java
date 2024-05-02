@@ -24,9 +24,33 @@ public class ProgrammingQuestions {
 		//sortAnArrayUsingsingleLoop();
 		//sumOf2NumbersInAnArray(8);
 		//moveDuplicateNumbersToTheRight();
-		segeregate();
+		//segeregate();
+		arrangeInIncreasingOrder();
 		//arrangeInIncreasingOrder();
 		
+	}
+	
+	//The output should be 4 as the biggest consiquitive occurance of 0 is 4 times
+	public static void getMostNumberOfTimesZeroIsRepeated() {
+		 System.out.println("Hello, World!");
+	      
+	      String txt = "110011010000100";
+	      int count = 0;
+	      int biggestNumber=0;
+	      for (int i=0;i<txt.length() ;i++ ){
+	        if(Character.toString(txt.charAt(i)).contentEquals("0")){
+	          count++;
+	          
+	        }else{
+	          count = 0; 
+	        }
+	        if(count >= biggestNumber){
+	          biggestNumber = count;
+	        }
+	        
+	        
+	      }
+	      System.out.println(biggestNumber);
 	}
 	
 	
@@ -58,9 +82,7 @@ public class ProgrammingQuestions {
 		
 		TreeMap<Integer, String> cotainer  = new TreeMap<Integer, String>();
 
-		
-		//Hashtable<Integer, String> cotainer  = new Hashtable<Integer,String>();
-		
+				
 		for (String string : inputArray) {
 			cotainer.put(string.length(), string);
 			
